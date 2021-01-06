@@ -12,12 +12,6 @@ install:
 
 script:
   - pytest --cov=./   
-
-# safelist
-branches:
-  only:
-  - master
-  - develop
   
 after_success:
   # codecoverage for Python 3 only
